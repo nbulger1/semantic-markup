@@ -1,3 +1,4 @@
+/* Universal Selector */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -5,13 +6,18 @@
 }
 
 body {
+    /* Overall background color = #d9dcd6 */
     background-color: #d9dcd6;
 }
 
 .header {
+    /* Header padding */
     padding: 20px;
+    /* Header font */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* Header background color */
     background-color: #2a607c;
+    /* Header text color */
     color: #ffffff;
 }
 
@@ -20,11 +26,13 @@ body {
     font-size: 48px;
 }
 
+/* Coloring the "seo" within "Horiseon" */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+/* Navigation bar within the header */
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,12 +40,22 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
+    margin-left: 25px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
     margin-left: 25px;
 }
 
@@ -59,20 +77,37 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* General Article Format */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+}
+
+/* Specific Section Format */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    /* Bottom margin */
+    margin-bottom: 20px;
+    /* Padding */
+    padding: 50px;
+    /* Height of section block */
+    height: 300px;
+    /* Font of section = Gill Sans */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* Section background color = #0072bb */
+    background-color: #0072bb;
+    /* Section font = white */
+    color: #ffffff;
+}
+
+.content img {
+    /* Images in article have a max height of 200px */
+    max-height: 200px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .benefits {
@@ -86,106 +121,21 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
     text-align: center;
+    display: block;
 }
 
-.benefit-brand h3 {
+.benefits h3 {
     margin-bottom: 10px;
-    text-align: center;
 }
 
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .footer {
