@@ -5,11 +5,13 @@
     margin: 0;
 }
 
+/* Body format */
 body {
     /* Overall background color = #d9dcd6 */
     background-color: #d9dcd6;
 }
 
+/* Header format */
 .header {
     /* Header padding */
     padding: 20px;
@@ -40,10 +42,12 @@ body {
     font-size: 20px;
 }
 
+/* List type for the unordered list in the navigation portion of the header */
 .header nav ul {
     list-style-type: none;
 }
 
+/* List display for the unordered list in the navigation portion of the header */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -59,11 +63,13 @@ body {
     margin-left: 25px;
 }
 
+/* Link Format for navigation bar */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Paragraph Format */
 p {
     font-size: 16px;
 }
@@ -105,11 +111,13 @@ p {
     max-height: 200px;
 }
 
+/* Header format for content article */
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*General benefits aside format */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -121,6 +129,7 @@ p {
     background-color: #2589bd;
 }
 
+/* Section formatting for benefits aside */
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
@@ -128,16 +137,19 @@ p {
     display: block;
 }
 
+/* Header format for benefits aside */
 .benefits h3 {
     margin-bottom: 10px;
 }
 
+/* Image format for benefits aside */
 .benefits img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Footer formatting */
 .footer {
     padding: 30px;
     clear: both;
@@ -145,6 +157,7 @@ p {
     text-align: center;
 }
 
+/* Text within the footer font size */
 .footer h2 {
     font-size: 20px;
 }
