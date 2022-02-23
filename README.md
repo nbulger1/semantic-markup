@@ -20,29 +20,35 @@ By working through the code, I was able to experience the difficulty of locating
 
 To initially determine necessary semantic tags, I opened the webpage in a browser and went into the code inspection to identify which portion of the code was associated with which visual portrayal. I determined that there was a header, navigation bar, a main with a background image, an article with three sections, an aside with three sections, and a footer (see images below). There was also an image that lay between the header and article that was part of the main content of the page. 
 
-! [The Horiseon webpage includes a navigation bar, a header image, and main portion of the page.](./assets/images/webpage-breakdown.jpg)
+! [The Horiseon webpage includes a navigation bar, a header image, and main portion of the page.](https://raw.githubusercontent.com/nbulger1/semantic-markup/main/assets/images/webpage-breakdown.jpg)
 
-! [The Horiseon webpage includes an article with three sections and an aside with three sections as well as a footer.](./assets/images/webpage-breakdown-2.jpg) 
+! [The Horiseon webpage includes an article with three sections and an aside with three sections as well as a footer.](https://raw.githubusercontent.com/nbulger1/semantic-markup/main/assets/images/webpage-breakdown-2.jpg) 
 
 After boxing the portions of each page, I started by going into the HTML file to find the corresponding code to adjust the < div > tags. 
 
 ## HTML
 
+Refer to above screenshots to see boxed portions of the webpage as I address them below. 
+
 > **Navigation**
 
 The initial < div > became the < header > to the entire webpage. Within the header there is an unordered list that can be defined as < nav > in place of the < div >.
 
+> **Main**
+
+The main content of the page started off with the background image defined by the class = "hero". I tagged that portion of the HTML < main >.
+
 > **Article**
 
-Once past the header and navigation bar, the first chunk of code, from lines 30-52, contained all three sections of dark blue blocking on the webpage, thus it could be termed an < article > along with three < section > tags. 
+After the main background image, the webpage has three portions of dark blue displayed in a block fashion, each with an image and text. I tagged all three of the blocks as an < article > and each individual block as a < section >.
 
 > **Aside**
 
-The next chunk of code, from lines 53-75 created the light blue block on the right side of the webpage that appeared more like an < aside > and thus I tagged it as such with three < section >s. 
+After the < article >, the code directed the user to the light blue block on the right of the page which I tagged < aside >.This < aside > also had three distinct portions of text paired with image that I tagged it as < section >s. 
 
 > **Footer**
 
-Finally, the last bit of code, from lines 76-81, could be refactored to < footer > as it created the footer that sat at the bottom of the page. 
+Finally, the last bit of code could be refactored to < footer > as it created the footer that sat at the bottom of the page. 
 
 ## CSS
 
