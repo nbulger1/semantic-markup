@@ -78,4 +78,4 @@ The overall goal of the refactor was to adjust the code without affecting the fu
 
 ## Link
 
-Below is the link to the deployed application: 
+Below is the link to the deployed application: https://nbulger1.github.io/semantic-markup/ 
