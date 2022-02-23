@@ -20,9 +20,9 @@ By working through the code, I was able to experience the difficulty of locating
 
 To initially determine necessary semantic tags, I opened the webpage in a browser and went into the code inspection to identify which portion of the code was associated with which visual portrayal. I determined that there was a header, navigation bar, a main with a background image, an article with three sections, an aside with three sections, and a footer (see images below). There was also an image that lay between the header and article that was part of the main content of the page. 
 
-! [The Horiseon webpage includes a navigation bar, a header image, and main portion of the page.](https://raw.githubusercontent.com/nbulger1/semantic-markup/main/assets/images/webpage-breakdown.jpg)
+![The Horiseon webpage includes a navigation bar, a header image, and main portion of the page.](https://raw.githubusercontent.com/nbulger1/semantic-markup/main/assets/images/webpage-breakdown.jpg "First Half of Sectioned Horiseon Webpage")
 
-! [The Horiseon webpage includes an article with three sections and an aside with three sections as well as a footer.](https://raw.githubusercontent.com/nbulger1/semantic-markup/main/assets/images/webpage-breakdown-2.jpg) 
+![The Horiseon webpage includes an article with three sections and an aside with three sections as well as a footer.](https://raw.githubusercontent.com/nbulger1/semantic-markup/main/assets/images/webpage-breakdown-2.jpg "Second Half of Sectioned Horiseon Webpage") 
 
 After boxing the portions of each page, I started by going into the HTML file to find the corresponding code to adjust the < div > tags. 
 
