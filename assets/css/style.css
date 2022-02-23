@@ -1,30 +1,33 @@
 /* Universal Selector */
 * {
+    /* Box-sizing property allows inclusion of the padding and border in an element's total width and height */
     box-sizing: border-box;
+    /* Padding property generates space around an element's content inside any defined borders */
     padding: 0;
+    /* Margin property sets the margins for an element */
     margin: 0;
 }
 
 /* Body format */
 body {
-    /* Overall background color = #d9dcd6 */
+    /* background-color property defines the color of the background */
     background-color: #d9dcd6;
 }
 
 /* Header format */
 .header {
-    /* Header padding */
     padding: 20px;
-    /* Header font */
+    /* Font-family property specifies a list of fonts to be used in order of priority */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    /* Header background color */
     background-color: #2a607c;
-    /* Header text color */
+    /* Color property defines the color of the text */
     color: #ffffff;
 }
 
 .header h1 {
+    /* Display property specifies the display behavior of an element */
     display: inline-block;
+    /* Font-size property sets the size of a font */
     font-size: 48px;
 }
 
@@ -44,6 +47,7 @@ body {
 
 /* List type for the unordered list in the navigation portion of the header */
 .header nav ul {
+    /* List-style-type property specifies the type of list-item marker in a list */
     list-style-type: none;
 }
 
@@ -53,11 +57,14 @@ body {
     margin-left: 25px;
 }
 
+/* Defining margins for elements that float left */
 .float-left {
+    /* Float property specifies whether an element should float to the left, right, or not at all */
     float: left;
     margin-right: 25px;
 }
 
+/* Defining margins for elements that float right */
 .float-right {
     float: right;
     margin-left: 25px;
@@ -66,6 +73,7 @@ body {
 /* Link Format for navigation bar */
 a {
     color: #ffffff;
+    /* Text-decoration property specifies the decoration added to any text */
     text-decoration: none;
 }
 
@@ -74,40 +82,41 @@ p {
     font-size: 16px;
 }
 
+/* Formatting the background image of the main content */
 .hero {
+    /* Height property sets the height of an element */
     height: 800px;
+    /* Width property sets the width of an element */
     width: 100%;
     margin-bottom: 25px;
+    /* Background-image property sets one or more background images for an element */
     background-image: url("../images/digital-marketing-meeting.jpg");
+    /* Background-size property sets the size of an element's background image */
     background-size: cover;
+    /* Background-position sets the starting position of a background image */
     background-position: center;
 }
 
-/* General Article Format */
+/* General content article format */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* Specific Section Format */
+/* Specific Section Format within the content article */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
-    /* Bottom margin */
     margin-bottom: 20px;
-    /* Padding */
     padding: 50px;
-    /* Height of section block */
     height: 300px;
-    /* Font of section = Gill Sans */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    /* Section background color = #0072bb */
     background-color: #0072bb;
-    /* Section font = white */
     color: #ffffff;
 }
 
+/* Image formatting for content article */
 .content img {
-    /* Images in article have a max height of 200px */
+    /* Max-height property defines the maximum height of an element */
     max-height: 200px;
 }
 
@@ -133,6 +142,7 @@ p {
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
+    /* Text-align property specifies the horizontal alignment of text in an element */
     text-align: center;
     display: block;
 }
@@ -146,6 +156,7 @@ p {
 .benefits img {
     display: block;
     margin: 10px auto;
+    /* Max-width property defines the maximum width of an element */
     max-width: 150px;
 }
 
