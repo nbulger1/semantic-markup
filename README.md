@@ -10,11 +10,17 @@ By working through the code, I was able to experience the difficulty of locating
 
 ## Table of Contents
 
+- [Application Details](#applicationdetails)
 - [Webpage Inspection](#webpageinspection)
 - [HTML Changes](#html)
 - [CSS Changes](#css)
 - [Test](#test)
 - [Link](#link)
+- [Changes for Resubmission](#changesforresubmission)
+
+## Application Details
+
+The Horiseon webpage is meant to give details on three main topics, including Search Engine Optimization, Online Reputation Management, and Social Media Marketing. Additionally, while not the main focus on the webpage, it can provide information on lead generation, brand awareness, as well as cost management. 
 
 ## Webpage Inspection
 
@@ -79,3 +85,28 @@ The overall goal of the refactor was to adjust the code without affecting the fu
 ## Link
 
 Below is the link to the deployed application: https://nbulger1.github.io/semantic-markup/ 
+
+## Changes for Resubmission
+
+First Round of Grading Feedback:
+
+> **Exceptionally good job! The site looks just like the mockup. The navbar links are not working. This is because you are targeting an ID via the # in the href, but there are not nay corresponding IDs on the page. The site title is not descriptive (does just say "website"). The images do not have good alt attributes. It is important to include good alt attributes so screen readers can describe the images. You are utilizing semantic html well. The README.md file is very descriptive. It is a good idea to include details of your app in the README.md file for future users/developers.**
+
+In order to adjust my homework for resubmission I addressed the comments about the navigation bar, the site tytle, the image alt attributes, and README.md app details. 
+
+> **Website Title**
+
+In the < title > section within the < head > I updated the title from "website" to "Horiseon" so that the tab in the browser reflects the company name.
+
+> **Navigation Bar**
+
+Within the navigation bar, the feedback was that I was targeting an ID via the # in the href, but there were no corresponding IDs on the page. I added in the corresponding IDs by defining both a class and an ID in each section contained in my "content" article. 
+
+> **Image Alternate Attributes**
+
+For all of the images, there were no alternate attributes present. I now understand that those descriptions are how screen readers know what an image looks like if they cannot physically see it. I added in an alternate image attribute for every single image on the page to increase the accessibility of the images alongside the text. I tried to write the alternate attributes such that they were descriptive enough for someone to understand the image. 
+
+> **README.md App Details**
+
+The feedback was that I should include details of my application in my README.md file, so I added a section above before my Website Inspection that explained that application itself to give the reader an overview of the webpage before discussing anything pertaining to specific accessibility changes. 
+
