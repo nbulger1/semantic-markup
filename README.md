@@ -10,13 +10,13 @@ By working through the code, I was able to experience the difficulty of locating
 
 ## Table of Contents
 
-- [Application Details](#applicationdetails)
-- [Webpage Inspection](#webpageinspection)
+- [Application Details](#application)
+- [Webpage Inspection](#inspection)
 - [HTML Changes](#html)
 - [CSS Changes](#css)
 - [Test](#test)
 - [Link](#link)
-- [Changes for Resubmission](#changesforresubmission)
+- [Changes for Resubmission](#changes)
 
 ## Application Details
 
