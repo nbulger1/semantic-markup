@@ -18,11 +18,11 @@ By working through the code, I was able to experience the difficulty of locating
 - [Link](#link)
 - [Changes for Resubmission](#changes)
 
-## Application Details
+## Application
 
 The Horiseon webpage is meant to give details on three main topics, including Search Engine Optimization, Online Reputation Management, and Social Media Marketing. Additionally, while not the main focus on the webpage, it can provide information on lead generation, brand awareness, as well as cost management. 
 
-## Webpage Inspection
+## Inspection
 
 To initially determine necessary semantic tags, I opened the webpage in a browser and went into the code inspection to identify which portion of the code was associated with which visual portrayal. I determined that there was a header, navigation bar, a main with a background image, an article with three sections, an aside with three sections, and a footer (see images below). There was also an image that lay between the header and article that was part of the main content of the page. 
 
@@ -86,7 +86,7 @@ The overall goal of the refactor was to adjust the code without affecting the fu
 
 Below is the link to the deployed application: https://nbulger1.github.io/semantic-markup/ 
 
-## Changes for Resubmission
+## Changes
 
 First Round of Grading Feedback:
 
